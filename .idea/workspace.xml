@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de74cae5-6b9e-4e35-974c-52131838c655" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MasterNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7803">
+              <caret line="758" column="29" lean-forward="false" selection-start-line="758" selection-start-column="29" selection-end-line="758" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+                <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+                <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+                <element signature="e#32672#32673#0" expanded="true" />
+                <element signature="e#32718#32719#0" expanded="true" />
+                <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+                <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+                <element signature="e#35971#35972#0" expanded="true" />
+                <element signature="e#36021#36022#0" expanded="true" />
+                <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+                <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientWorker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+                <element signature="e#7653#7654#0" expanded="true" />
+                <element signature="e#7686#7687#0" expanded="true" />
+                <element signature="e#7711#7712#0" expanded="true" />
+                <element signature="e#7741#7742#0" expanded="true" />
+                <element signature="e#7775#7776#0" expanded="true" />
+                <element signature="e#7823#7824#0" expanded="true" />
+                <element signature="e#7857#7858#0" expanded="true" />
+                <element signature="e#7905#7906#0" expanded="true" />
+                <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+                <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+                <element signature="e#8371#8372#0" expanded="true" />
+                <element signature="e#8409#8410#0" expanded="true" />
+                <element signature="e#8449#8450#0" expanded="true" />
+                <element signature="e#8482#8483#0" expanded="true" />
+                <element signature="e#8516#8517#0" expanded="true" />
+                <element signature="e#8552#8553#0" expanded="true" />
+                <element signature="e#8586#8587#0" expanded="true" />
+                <element signature="e#8622#8623#0" expanded="true" />
+                <element signature="e#8659#8660#0" expanded="true" />
+                <element signature="e#8691#8692#0" expanded="true" />
+                <element signature="e#8730#8731#0" expanded="true" />
+                <element signature="e#8762#8763#0" expanded="true" />
+                <element signature="e#8794#8795#0" expanded="true" />
+                <element signature="e#8823#8824#0" expanded="true" />
+                <element signature="e#8855#8856#0" expanded="true" />
+                <element signature="e#8888#8889#0" expanded="true" />
+                <element signature="e#8923#8924#0" expanded="true" />
+                <element signature="e#8959#8960#0" expanded="true" />
+                <element signature="e#9002#9003#0" expanded="true" />
+                <element signature="e#9037#9038#0" expanded="true" />
+                <element signature="e#9072#9073#0" expanded="true" />
+                <element signature="e#9110#9111#0" expanded="true" />
+                <element signature="e#9154#9155#0" expanded="true" />
+                <element signature="e#9185#9186#0" expanded="true" />
+                <element signature="e#9222#9223#0" expanded="true" />
+                <element signature="e#9261#9262#0" expanded="true" />
+                <element signature="e#9287#9288#0" expanded="true" />
+                <element signature="e#9320#9321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3944">
+              <caret line="648" column="9" lean-forward="false" selection-start-line="648" selection-start-column="9" selection-end-line="648" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Worker#0;class#Worker#0" expanded="false" />
+                <element signature="method#sendInfoToServer#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateCPU_RAM#0;class#Worker#0" expanded="false" />
+                <element signature="method#processWork#0;class#Worker#0" expanded="false" />
+                <element signature="method#Progress#0;class#Progress#0;class#Worker#0" expanded="false" />
+                <element signature="method#timerPause#0;class#Worker#0" expanded="false" />
+                <element signature="method#timerStart#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixX#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixY#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixC#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixP#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixCu#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixCi#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculatePu#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculatePi#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixYTY#0;class#Worker#0" expanded="false" />
+                <element signature="method#calculateMatrixXTX#0;class#Worker#0" expanded="false" />
+                <element signature="method#invertMatrix#0;class#Worker#0" expanded="false" />
+                <element signature="method#initialize_basic_matrices#0;class#Worker#0" expanded="false" />
+                <element signature="class#commThread#0;class#Worker#0" expanded="false" />
+                <element signature="method#run#0;class#commThread#0;class#Worker#0" expanded="false" />
+                <element signature="method#sendData#0;class#Worker#0" expanded="false" />
+                <element signature="method#main#0;class#Worker#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Application#0;class#Application#0" expanded="false" />
+                <element signature="e#7797#7825#0" expanded="false" />
+                <element signature="e#8709#8787#0" expanded="false" />
+                <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+                <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+                <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+                <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+                <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+                <element signature="e#15211#15212#0" expanded="true" />
+                <element signature="e#15269#15270#0" expanded="true" />
+                <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+                <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+                <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+                <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+                <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+                <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+                <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+                <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+                <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+                <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+                <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+                <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+                <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+                <element signature="e#28397#28398#0" expanded="true" />
+                <element signature="e#28429#28430#0" expanded="true" />
+                <element signature="e#28465#28466#0" expanded="true" />
+                <element signature="e#28503#28504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="method#set_Cords#0;class#Line#0" expanded="false" />
+                <element signature="method#update#0;class#Line#0" expanded="false" />
+                <element signature="method#setIN#0;class#Line#0" expanded="false" />
+                <element signature="method#setOUT#0;class#Line#0" expanded="false" />
+                <element signature="method#setDEF#0;class#Line#0" expanded="false" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#MyNode#0;class#MyNode#0" expanded="false" />
+                <element signature="method#changeImg#0;class#MyNode#0" expanded="false" />
+                <element signature="method#setImage#0;class#MyNode#0" expanded="false" />
+                <element signature="method#paintComponent#0;class#MyNode#0" expanded="false" />
+                <element signature="method#mouseClicked#0;class#MyNode#0" expanded="false" />
+                <element signature="method#mousePressed#0;class#MyNode#0" expanded="false" />
+                <element signature="method#setProcessing#0;class#MyNode#0" expanded="false" />
+                <element signature="method#ProcessAnimation#0;class#ProcessAnimation#0;class#MyNode#0" expanded="false" />
+                <element signature="method#run#0;class#ProcessAnimation#0;class#MyNode#0" expanded="false" />
+                <element signature="e#3801#3802#0" expanded="true" />
+                <element signature="e#3833#3834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infoArea.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/infoArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>s</find>
+      <find>getWorkerInfo</find>
+      <find>getAva</find>
+      <find>Reccomend</find>
+      <find>BestLo</find>
+      <find>REDISTRIBUT</find>
+      <find>Selec</find>
+      <find>sort</find>
+      <find>bestLoca</find>
+      <find>keyLi</find>
+      <find>System.out.printl</find>
+      <find>selec</find>
+      <find>reset</find>
+      <find>tresh</find>
+      <find>4002</find>
+      <find>400</find>
+      <find>manag</find>
+      <find>manageina</find>
+      <find>isSele</find>
+      <find>Select</find>
+      <find>treshold</find>
+      <find>poi</find>
+      <find>reset(</find>
+      <find>200</find>
+      <find>text.setFo</find>
+      <find>REDIS</find>
+      <find>selecta</find>
+      <find>activeMatrix</find>
+      <find>manageIna</find>
+      <find>manage</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Work_Object.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data_Object.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/asda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/asd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WorkerInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyJPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProcessAnimation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info_panel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/infoArea.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MasterNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientWorker.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-121" />
+    <option name="y" value="10" />
+    <option name="width" value="1398" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ergasia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Katanemhmena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ergasia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Katanemhmena" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ergasia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Katanemhmena" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ergasia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Katanemhmena" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Katanemhmena" />
+      <envs />
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Katanemhmena" />
+      <envs />
+    </configuration>
+    <configuration name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Worker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Katanemhmena" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="asda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="asda" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Katanemhmena" />
+      <envs />
+    </configuration>
+    <configuration name="testClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="testClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Katanemhmena" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="2" class="java.lang.String" itemvalue="Application.asda" />
+      <item index="3" class="java.lang.String" itemvalue="Application.testClass" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Worker" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Worker" />
+        <item index="2" class="java.lang.String" itemvalue="Application.testClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.asda" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de74cae5-6b9e-4e35-974c-52131838c655" name="Default" comment="" />
+      <created>1522425990407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522425990407</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30946884" sideWeight="0.55648535" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24863088" sideWeight="0.44351465" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39539978" sideWeight="0.4818689" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32101616" sideWeight="0.22036262" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3044907" sideWeight="0.49761903" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30946884" sideWeight="0.55648535" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3960739" sideWeight="0.4818689" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231106" sideWeight="0.22036262" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30887187" sideWeight="0.44351465" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23329683" sideWeight="0.49761903" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="78" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="228" column="29" lean-forward="false" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+            <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#32672#32673#0" expanded="true" />
+            <element signature="e#32718#32719#0" expanded="true" />
+            <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#35971#35972#0" expanded="true" />
+            <element signature="e#36021#36022#0" expanded="true" />
+            <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="false" />
+            <element signature="e#7797#7825#0" expanded="false" />
+            <element signature="e#8709#8787#0" expanded="false" />
+            <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+            <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+            <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="e#15211#15212#0" expanded="true" />
+            <element signature="e#15269#15270#0" expanded="true" />
+            <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+            <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+            <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+            <element signature="e#28397#28398#0" expanded="true" />
+            <element signature="e#28429#28430#0" expanded="true" />
+            <element signature="e#28465#28466#0" expanded="true" />
+            <element signature="e#28503#28504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+            <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#32672#32673#0" expanded="true" />
+            <element signature="e#32718#32719#0" expanded="true" />
+            <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#35971#35972#0" expanded="true" />
+            <element signature="e#36021#36022#0" expanded="true" />
+            <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="false" />
+            <element signature="e#7797#7825#0" expanded="false" />
+            <element signature="e#8709#8787#0" expanded="false" />
+            <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+            <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+            <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="e#15211#15212#0" expanded="true" />
+            <element signature="e#15269#15270#0" expanded="true" />
+            <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+            <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+            <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+            <element signature="e#28397#28398#0" expanded="true" />
+            <element signature="e#28429#28430#0" expanded="true" />
+            <element signature="e#28465#28466#0" expanded="true" />
+            <element signature="e#28503#28504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="228" column="41" lean-forward="false" selection-start-line="228" selection-start-column="41" selection-end-line="228" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+            <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#32672#32673#0" expanded="true" />
+            <element signature="e#32718#32719#0" expanded="true" />
+            <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#35971#35972#0" expanded="true" />
+            <element signature="e#36021#36022#0" expanded="true" />
+            <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="false" />
+            <element signature="e#7797#7825#0" expanded="false" />
+            <element signature="e#8709#8787#0" expanded="false" />
+            <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+            <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+            <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="e#15211#15212#0" expanded="true" />
+            <element signature="e#15269#15270#0" expanded="true" />
+            <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+            <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+            <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+            <element signature="e#28397#28398#0" expanded="true" />
+            <element signature="e#28429#28430#0" expanded="true" />
+            <element signature="e#28465#28466#0" expanded="true" />
+            <element signature="e#28503#28504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="188" column="26" lean-forward="false" selection-start-line="188" selection-start-column="26" selection-end-line="188" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+            <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#32672#32673#0" expanded="true" />
+            <element signature="e#32718#32719#0" expanded="true" />
+            <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#35971#35972#0" expanded="true" />
+            <element signature="e#36021#36022#0" expanded="true" />
+            <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="false" />
+            <element signature="e#7797#7825#0" expanded="false" />
+            <element signature="e#8709#8787#0" expanded="false" />
+            <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+            <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+            <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="e#15211#15212#0" expanded="true" />
+            <element signature="e#15269#15270#0" expanded="true" />
+            <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+            <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+            <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+            <element signature="e#28397#28398#0" expanded="true" />
+            <element signature="e#28429#28430#0" expanded="true" />
+            <element signature="e#28465#28466#0" expanded="true" />
+            <element signature="e#28503#28504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+            <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#32672#32673#0" expanded="true" />
+            <element signature="e#32718#32719#0" expanded="true" />
+            <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#35971#35972#0" expanded="true" />
+            <element signature="e#36021#36022#0" expanded="true" />
+            <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="false" />
+            <element signature="e#7797#7825#0" expanded="false" />
+            <element signature="e#8709#8787#0" expanded="false" />
+            <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+            <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+            <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="e#15211#15212#0" expanded="true" />
+            <element signature="e#15269#15270#0" expanded="true" />
+            <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+            <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+            <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+            <element signature="e#28397#28398#0" expanded="true" />
+            <element signature="e#28429#28430#0" expanded="true" />
+            <element signature="e#28465#28466#0" expanded="true" />
+            <element signature="e#28503#28504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work_Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientInfo.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asda.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/asd.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data_Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar!/org/apache/commons/math3/linear/MatrixUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2047" column="0" lean-forward="false" selection-start-line="2047" selection-start-column="0" selection-end-line="2047" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WorkerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="59" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="method#DataMsg#0;class#DataMsg#0" expanded="false" />
+            <element signature="method#DataMsg#1;class#DataMsg#0" expanded="false" />
+            <element signature="method#DataMsg#2;class#DataMsg#0" expanded="false" />
+            <element signature="e#1545#1546#0" expanded="false" />
+            <element signature="e#1577#1578#0" expanded="false" />
+            <element signature="e#1611#1612#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1673#1674#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1734#1735#0" expanded="false" />
+            <element signature="e#1765#1766#0" expanded="false" />
+            <element signature="e#1793#1794#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1882#1883#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+            <element signature="e#1514#1515#0" expanded="false" />
+            <element signature="e#1564#1565#0" expanded="false" />
+            <element signature="e#1619#1620#0" expanded="false" />
+            <element signature="e#1703#1704#0" expanded="false" />
+            <element signature="e#1732#1733#0" expanded="false" />
+            <element signature="e#1886#1887#0" expanded="false" />
+            <element signature="e#1926#1927#0" expanded="false" />
+            <element signature="e#1961#1962#0" expanded="false" />
+            <element signature="e#1986#1987#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProcessAnimation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="method#DataObject#0;class#DataObject#0" expanded="false" />
+            <element signature="method#DataObject#1;class#DataObject#0" expanded="false" />
+            <element signature="method#DataObject#2;class#DataObject#0" expanded="false" />
+            <element signature="method#DataObject#3;class#DataObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="method#set_Cords#0;class#Line#0" expanded="false" />
+            <element signature="method#update#0;class#Line#0" expanded="false" />
+            <element signature="method#setIN#0;class#Line#0" expanded="false" />
+            <element signature="method#setOUT#0;class#Line#0" expanded="false" />
+            <element signature="method#setDEF#0;class#Line#0" expanded="false" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MyNode#0;class#MyNode#0" expanded="false" />
+            <element signature="method#changeImg#0;class#MyNode#0" expanded="false" />
+            <element signature="method#setImage#0;class#MyNode#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#MyNode#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyNode#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyNode#0" expanded="false" />
+            <element signature="method#setProcessing#0;class#MyNode#0" expanded="false" />
+            <element signature="method#ProcessAnimation#0;class#ProcessAnimation#0;class#MyNode#0" expanded="false" />
+            <element signature="method#run#0;class#ProcessAnimation#0;class#MyNode#0" expanded="false" />
+            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="e#3833#3834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/infoArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="false" />
+            <element signature="e#7797#7825#0" expanded="false" />
+            <element signature="e#8709#8787#0" expanded="false" />
+            <element signature="method#paintPanel#0;class#Application#0" expanded="false" />
+            <element signature="method#initiateServer#0;class#Application#0" expanded="false" />
+            <element signature="class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="method#dashPhase#0;class#dashPhase#0;class#Application#0" expanded="false" />
+            <element signature="class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#MyButton#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#MyButton#0;class#Application#0" expanded="false" />
+            <element signature="e#15211#15212#0" expanded="true" />
+            <element signature="e#15269#15270#0" expanded="true" />
+            <element signature="class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#startWindow#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#initGUI#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#checkValues#0;class#startWindow#0;class#Application#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Application#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#Application#0" expanded="false" />
+            <element signature="method#windowOpened#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#Application#0" expanded="false" />
+            <element signature="method#windowClosed#0;class#Application#0" expanded="false" />
+            <element signature="method#windowIconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeiconified#0;class#Application#0" expanded="false" />
+            <element signature="method#windowActivated#0;class#Application#0" expanded="false" />
+            <element signature="method#windowDeactivated#0;class#Application#0" expanded="false" />
+            <element signature="e#28397#28398#0" expanded="true" />
+            <element signature="e#28429#28430#0" expanded="true" />
+            <element signature="e#28465#28466#0" expanded="true" />
+            <element signature="e#28503#28504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7803">
+          <caret line="758" column="29" lean-forward="false" selection-start-line="758" selection-start-column="29" selection-end-line="758" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MasterNode#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#MasterNode#1;class#MasterNode#0" expanded="false" />
+            <element signature="method#readFile#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#parseLine#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#InitializeData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setParams#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateCostFunction#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calculateScore#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#ReccomendBestLocalPois#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#waitUpdatingThreads#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#AssembleResults#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#checkWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#reDistributeWork#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getAvailableWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sort_av_workers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_work_perc_forWorkers#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getWorkersPower#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#removeWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#manageNewWorker#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#DataTrainer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#DataUpdater#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#32672#32673#0" expanded="true" />
+            <element signature="e#32718#32719#0" expanded="true" />
+            <element signature="method#updateMatrixXY#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#sendWorkerRawData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#generateRandomMatrix#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_p#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#calc_Matrix_c#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#openServer#0;class#MasterNode#0" expanded="false" />
+            <element signature="class#serverListeningThread#0;class#MasterNode#0" expanded="false" />
+            <element signature="e#35971#35972#0" expanded="true" />
+            <element signature="e#36021#36022#0" expanded="true" />
+            <element signature="method#getMessage#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#getData#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_treshold#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri_priority#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setDistri#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setSynch#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setIterations#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#setError#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#StopTraining#0;class#MasterNode#0" expanded="false" />
+            <element signature="method#exit#0;class#MasterNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3944">
+          <caret line="648" column="9" lean-forward="false" selection-start-line="648" selection-start-column="9" selection-end-line="648" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Worker#0;class#Worker#0" expanded="false" />
+            <element signature="method#sendInfoToServer#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateCPU_RAM#0;class#Worker#0" expanded="false" />
+            <element signature="method#processWork#0;class#Worker#0" expanded="false" />
+            <element signature="method#Progress#0;class#Progress#0;class#Worker#0" expanded="false" />
+            <element signature="method#timerPause#0;class#Worker#0" expanded="false" />
+            <element signature="method#timerStart#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixX#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixY#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixC#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixP#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixCu#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixCi#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculatePu#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculatePi#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixYTY#0;class#Worker#0" expanded="false" />
+            <element signature="method#calculateMatrixXTX#0;class#Worker#0" expanded="false" />
+            <element signature="method#invertMatrix#0;class#Worker#0" expanded="false" />
+            <element signature="method#initialize_basic_matrices#0;class#Worker#0" expanded="false" />
+            <element signature="class#commThread#0;class#Worker#0" expanded="false" />
+            <element signature="method#run#0;class#commThread#0;class#Worker#0" expanded="false" />
+            <element signature="method#sendData#0;class#Worker#0" expanded="false" />
+            <element signature="method#main#0;class#Worker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="method#ClientWorker#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#run#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerSignal#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkerInfo#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#getWorkProgress#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeExtraWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#distributeWork#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#splitWorkLoad#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Pause#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#Resume#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#setTimeOut#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#end_connection#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7686#7687#0" expanded="true" />
+            <element signature="e#7711#7712#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+            <element signature="e#7775#7776#0" expanded="true" />
+            <element signature="e#7823#7824#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
+            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="method#Listen#0;class#ClientWorker#0" expanded="false" />
+            <element signature="method#isDone#0;class#ClientWorker#0" expanded="false" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8449#8450#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+            <element signature="e#8516#8517#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+            <element signature="e#8586#8587#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8691#8692#0" expanded="true" />
+            <element signature="e#8730#8731#0" expanded="true" />
+            <element signature="e#8762#8763#0" expanded="true" />
+            <element signature="e#8794#8795#0" expanded="true" />
+            <element signature="e#8823#8824#0" expanded="true" />
+            <element signature="e#8855#8856#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8923#8924#0" expanded="true" />
+            <element signature="e#8959#8960#0" expanded="true" />
+            <element signature="e#9002#9003#0" expanded="true" />
+            <element signature="e#9037#9038#0" expanded="true" />
+            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9110#9111#0" expanded="true" />
+            <element signature="e#9154#9155#0" expanded="true" />
+            <element signature="e#9185#9186#0" expanded="true" />
+            <element signature="e#9222#9223#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9287#9288#0" expanded="true" />
+            <element signature="e#9320#9321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Katanemhmena</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-math3:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
